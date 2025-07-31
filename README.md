@@ -11,7 +11,7 @@ The **CIFAR-10 dataset** consists of **60,000 32x32 pixel color images** distrib
  - **50,000 training images**
  - **10,000 test images**
 
-The training data is futher split into five batches of 10,000 images each. The test batch contains 1,000 randomly selected images from each class.
+The training data is further split into five batches of 10,000 images each. The test batch contains 1,000 randomly selected images from each class.
 
 ## Classes
  - `Airplane`
@@ -34,7 +34,7 @@ The training data is futher split into five batches of 10,000 images each. The t
 ## Challenges
  - **Overfitting**: Initial models showed signs of overfitting, where **training accuracy** improved while **validation accuracy** plateaued or worsened.
  - **Model Design**: Determining the optimal number of **convolutional** and **pooling layers** was challenging to avoid underfitting or overfitting.
- - **Hyperparameter Tuning**: Selecting suitable **dropout rates** and layer sizes requred experimentation for improved gerneralization.
+ - **Hyperparameter Tuning**: Selecting suitable **dropout rates** and layer sizes required experimentation for improved generalization.
  - **Class Imbalance in Batches**: Random distribution of images in training batches sometimes resulted in uneven class representation, affecting learning stability.
 
 ## Analysis and Insights
@@ -42,7 +42,7 @@ The training data is futher split into five batches of 10,000 images each. The t
  - The initial CNN model provided baseline performance. Adding more **convolutional** and **max pooling layers** helped extract more features but risked overfitting.
  - Incorporation of **dropout layers** in the third model effectively mitigated overfitting, as indicated by training loss plateauing and validation accuracy aligning more closely with training accuracy.
  - **Performance Comparison**
-   - Models 1 and 2 showeed decreaing training loss but diverging validation loss and accuracy, confirming **overfitting issues**.
+   - Models 1 and 2 showed decreasing training loss but diverging validation loss and accuracy, confirming **overfitting issues**.
    - Model 3's **dropout layers** improved validation metrics, highlighting the importance of **regularization** in CNNs.
  - Further tuning of **hyperparameters**, experimenting with **dense layers**, adjusting **dropout rates**, and possibly incorporating **batch normalization** could enhance model performance.
 
