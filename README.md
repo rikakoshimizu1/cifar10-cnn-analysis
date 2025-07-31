@@ -4,7 +4,7 @@
 This project involves building and improving a **simple Convolutional Neural Network (CNN)** model for image classification using the **CIFAR-10 dataset**. The dataset contains **60,000 32x32 color images** categorized into **10 distinct classes**. The goal is to design, train, and evaluate CNN models while experimenting with different architectures and techniques to improve performance. 
 
 ## Objective
-The objective of this assignment is to develop a simple CNN and enhance it through additional **convolutional layers*, **max pooling layers**, and **dropout regularization**. The models are trained and validated to observe the effects of these modifications on **accuracy** and **overfitting**.
+The objective of this assignment is to develop a simple CNN and enhance it through additional **convolutional layers**, **max pooling layers**, and **dropout regularization**. The models are trained and validated to observe the effects of these modifications on **accuracy** and **overfitting**.
 
 ## Dataset
 The **CIFAR-10 dataset** consists of **60,000 32x32 pixel color images** distributed across **10 classes** with **6,000 images per class**. It is divided into:
